@@ -1,8 +1,13 @@
 aid: simile
 name: Simile
-description: 'Simile is a company surfaced as a portfolio company of bain-capital-ventures, index-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Simile is a simulation platform for human behavior. Its AI-driven simulations
+  show how and why customers, employees, or populations respond to change, so enterprise
+  teams can find their audience, reach niche populations, de-risk decisions, segment
+  sentiment at scale, and test concepts before a real-world launch. Simile is building
+  a foundation model that predicts human behavior and a product that deploys it at scale.
+  It raised a $100M Series A led by Index Ventures and is backed by Bain Capital Ventures;
+  named customers include CVS Health, Wealthfront, Suntory, Garnett Station Partners,
+  and Banco Itau.'
 url: https://raw.githubusercontent.com/api-evangelist/simile/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +16,32 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://simile.ai/icon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai Apps
+- Simulation
+- Human Behavior
+- Consumer Insights
+- Market Research
+- Foundation Model
+- Behavioral Science
+- Synthetic Users
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +51,22 @@ maintainers:
 common:
 - type: Website
   url: https://simile.ai/
+- type: Blog
+  url: https://simile.ai/blog
+- type: PrivacyPolicy
+  url: https://simile.ai/privacy-policy
+- type: Careers
+  url: https://jobs.ashbyhq.com/simile
+- type: LinkedIn
+  url: https://www.linkedin.com/company/simile-ai-inc/
+- type: Twitter
+  url: https://x.com/simile_ai
+- type: LLMsTxt
+  url: llms/simile-llms.txt
+- type: DomainSecurity
+  url: security/simile-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
